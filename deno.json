@@ -1,0 +1,10 @@
+{
+  "$schema": "https://deno.land/x/deno/cli/schemas/config-file.v1.json",
+  "tasks": {
+    "dev": "deno run -A main.ts"
+  },
+  "imports": {
+    "@std/collections": "jsr:@std/collections@^1.0.9",
+    "@std/path": "jsr:@std/path@^1.0.8"
+  }
+}
